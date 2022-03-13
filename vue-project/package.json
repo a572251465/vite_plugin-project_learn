@@ -1,0 +1,19 @@
+{
+  "name": "vue-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.2.4",
+    "eslint": "^8.11.0",
+    "prettier": "^2.5.1",
+    "vite": "^2.8.6",
+    "vue": "^3.2.31"
+  }
+}
