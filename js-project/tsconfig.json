@@ -6,9 +6,10 @@
     "moduleResolution": "node",
     "strict": true,
     "jsx": "preserve",
+    "isolatedModules": true,
+    "types": ["vite/client"],
     "skipLibCheck": true,
     "sourceMap": true,
-    "types": ["vite/client"],
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "lib": [

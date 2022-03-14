@@ -5,10 +5,8 @@
     "module": "esnext",
     "moduleResolution": "node",
     "strict": true,
-    "jsx": "preserve",
     "skipLibCheck": true,
     "sourceMap": true,
-    "types": ["vite/client"],
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "lib": [
@@ -22,6 +20,12 @@
       ]
     }
   },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
   "exclude": [
     "node_modules/**"
   ]
