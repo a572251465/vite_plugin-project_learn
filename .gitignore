@@ -2,3 +2,4 @@ node_modules
 .vsocde
 .idea
 .pnpm-debug.log
+dist

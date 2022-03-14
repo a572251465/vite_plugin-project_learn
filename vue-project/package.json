@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite --mode development",
+    "build": "vite build --mode production",
+    "test": "vite build --mode test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^17.0.21",
     "@vitejs/plugin-vue": "^2.2.4",
     "eslint": "^8.11.0",
     "prettier": "^2.5.1",
